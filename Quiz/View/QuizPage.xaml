@@ -24,6 +24,7 @@
                FontAttributes="Bold"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"/>
+            <Image x:Name="theImage" Source="{Binding image}" Aspect="AspectFit" />
             <Label Text="Swipe Left for Option 1 and Right for Option 2"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
